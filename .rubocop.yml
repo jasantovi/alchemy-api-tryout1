@@ -1,0 +1,17 @@
+AllCops:
+  Exclude:
+    - alchemy-api-rb.gemspec
+    - vendor/**/*
+
+Documentation:
+  # don't require classes to be documented
+  Enabled: false
+
+Encoding:
+  # no need to always specify encoding
+  Enabled: false
+
+LineLength:
+  # just one more character please
+  Max: 80
+
